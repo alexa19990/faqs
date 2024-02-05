@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    justify-content: center;
+
+    .background{
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        z-index: 0;
+    }
+
+    .title-box{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .center-box{
+        z-index: 1;
+        width: 600px;
+        top: 240px;
+        position: relative;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: white;
+
+        .faqs-box{
+            display: flex;
+            flex-direction: column;
+            div{
+                display: flex;
+                justify-content: space-between;
+            }
+
+            p{
+                color: hsl(292, 42%, 14%);
+            }
+        }
+    }
+}
